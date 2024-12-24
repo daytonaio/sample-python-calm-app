@@ -1,0 +1,7 @@
+#require lib for execution (before set up venu)
+streamlit
+google-generativeai
+pinecone-client
+langchain
+python-dotenv
+
