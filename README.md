@@ -29,29 +29,30 @@ Before running the application, ensure you have the following installed:
 
 ### Installation
 
-1. . Install Daytona
+#### 1.  Install Daytona
 Follow the [Daytona installation guide](https://github.com/daytonaio/daytona#installation) to set up Daytona on your system.
-   ```
 
 #### 2. Create the Workspace
 Run the following command to create your workspace:
 ```bash
-daytona create https://github.com/CodeProcastinator/sample-python-calm-app
+daytona create https://github.com/daytonaio/sample-python-calm-app
+```
+
 ---
 
-3. **Install Dependencies**:
+#### 3. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set Up Environment Variables**:
+#### 4. **Set Up Environment Variables**:
    - Create a `.env` file in the project root directory.
    - Add your Google API key:
-     ```bash
-     GOOGLE_API_KEY=your_api_key_here
-     ```
+  ```bash
+    GOOGLE_API_KEY=your_api_key_here
+   ```
 
-5. **Run the Application**:
+#### 5. **Run the Application**:
    ```bash
    streamlit run app.py
    ```
